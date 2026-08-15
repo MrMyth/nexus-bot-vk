@@ -1,0 +1,8 @@
+googleapis.com
+youtubei.googleapis.com
+youtube.com
+googlevideo.com
+ytimg.com
+accounts.google.com
+oauth2.googleapis.com
+в D:\YandexDisk\DV\0 ZAPRET\zapret\lists\list-google.txt

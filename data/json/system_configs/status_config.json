@@ -1,0 +1,37 @@
+{
+  "embed": {
+    "title": "{emoji_status} {emoji_info} Статус и статистика системы",
+    "description": "Текущее состояние мониторинга VK → Discord",
+    "color": "0, 51, 102",
+    "thumbnail": "assets/images/bot-image/botava.jpg",
+    "image": "assets/images/bot-image/VKtoDiscordPython.jpg",
+    "footer": {
+      "text": "Последнее обновление",
+      "icon_url": "assets/images/bot-image/botava.jpg"
+    },
+    "author": {
+      "name": "VK to Discord Bot Service",
+      "icon_url": "assets/images/bot-image/botava.jpg"
+    },
+    "sections": {
+      "main_stats": {
+        "title": "Общая статистика",
+        "fields": [
+          {"name": "{emoji_uptime} Аптайм", "value": "{uptime}", "inline": true},
+          {"name": "{emoji_queue} В очереди", "value": "{queue_size}", "inline": true},
+          {"name": "{emoji_error} Ошибки", "value": "{errors}", "inline": true},
+          {"name": "{emoji_start} Время запуска", "value": "{start_time}", "inline": false}
+        ]
+      },
+      "content_stats": {
+        "title": "Обработано контента",
+        "value": "{emoji_posts} Постов: **{processed_posts}**\n{emoji_videos} Видео: **{processed_videos}**\n{emoji_streams} Стримов: **{processed_streams}**\n{emoji_assets} Ассеты: **{processed_assets}**"
+      }
+    },
+    "monitors_table": {
+      "title": "{emoji_info} Активные мониторы",
+      "header": "Группа/Канал       | Успех    | Пост | Статус\n-------------------------------------------------",
+      "row_format": "{name:<18} | {last_success:<8} | {processed:<4} | {status_icon}"
+    }
+  }
+}

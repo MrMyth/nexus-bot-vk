@@ -1,0 +1,64 @@
+{
+  "default": {
+    "webhook_username": "AutoNotifier",
+    "webhook_avatar_url": "assets/images/bot-image/thedivision2-icon.png"
+  },
+  "platforms": {
+    "vk_wall": {
+      "webhook_username": "Разведсводка VK",
+      "webhook_avatar_url": "assets/images/bot-image/vk.jpg"
+    },
+    "vk_group": {
+      "webhook_username": "Разведсводка VK",
+      "webhook_avatar_url": "assets/images/bot-image/vk.jpg"
+    },
+    "game_thedivision": {
+      "webhook_username": "Разведсводка VK",
+      "webhook_avatar_url": "assets/images/bot-image/thedivision2-icon.png"
+    },
+    "vk_live": {
+      "webhook_username": "VK Live",
+      "webhook_avatar_url": "assets/images/bot-image/vk.jpg"
+    },
+    "twitch": {
+      "webhook_username": "Twitch Live",
+      "webhook_avatar_url": "assets/images/bot-image/default.jpg"
+    },
+    "youtube": {
+      "webhook_username": "YouTube",
+      "webhook_avatar_url": "assets/images/bot-image/default.jpg"
+    },
+    "kick": {
+      "webhook_username": "Kick Live",
+      "webhook_avatar_url": "assets/images/bot-image/default.jpg"
+    },
+    "trovo": {
+      "webhook_username": "Trovo Live",
+      "webhook_avatar_url": "assets/images/bot-image/default.jpg"
+    },
+    "goodgame": {
+      "webhook_username": "GoodGame Live",
+      "webhook_avatar_url": "assets/images/bot-image/default.jpg"
+    },
+    "rutube": {
+      "webhook_username": "Rutube",
+      "webhook_avatar_url": "assets/images/bot-image/default.jpg"
+    },
+    "secret_vendors": {
+      "webhook_username": "Секретные торговцы",
+      "webhook_avatar_url": "assets/images/bot-image/thedivision2-icon.png"
+    },
+    "game_schedule": {
+      "webhook_username": "Игровое расписание",
+      "webhook_avatar_url": "assets/images/bot-image/thedivision2-icon.png"
+    },
+    "pdf_module": {
+      "webhook_username": "Division Reset",
+      "webhook_avatar_url": "assets/images/bot-image/thedivision2-icon.png"
+    },
+    "vk_assets": {
+      "webhook_username": "VK Assets",
+      "webhook_avatar_url": "assets/images/bot-image/thedivision2-icon.png"
+    }
+  }
+}

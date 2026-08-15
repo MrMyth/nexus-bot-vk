@@ -1,0 +1,7 @@
+{
+  "name": "Nexus Multi-Functional Discord Bot",
+  "description": "Многофункциональный Discord-бот нового поколения: мониторинг стримов и постов (VK Play Live, YouTube, Twitch, Kick, Rutube, VK.com Live, GoodGame.ru, Telegram), интеграция Trello, отслеживание обновлений PDF, учет активности, защита каналов, роли-зависимости, а также секретные торговцы The Division 2, игровое расписание сбросов и автоматическая пересылка медиаконтента.",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

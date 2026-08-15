@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "rules": [
+    {
+      "id": "default_rule",
+      "name": "Основное перенаправление",
+      "source_channel_ids": [
+        1158000803097878528
+      ],
+      "target_channel_id": 1535609728821100584,
+      "enabled": true
+    }
+  ],
+  "ignore_bot_messages": true
+}

@@ -1,0 +1,78 @@
+{
+  "auto_publish": true,
+  "webhook_url": "",
+  "webhook_username": "Екатерина",
+  "webhook_avatar_url": "assets/images/bot-image/agentwomanmaskot.jpg",
+  "author_name": "Екатерина",
+  "author_icon_url": "assets/images/bot-image/agentwomanmaskot.jpg",
+  "footer_text": "Екатерина",
+  "footer_icon_url": "assets/images/bot-image/agentwomanmaskot.jpg",
+  "channel_id": null,
+  "ping_role_id": null,
+  "content_template": "{role_ping}",
+  "color": "244, 102, 27",
+  "schedule": [
+    {
+      "id": "paradise_reset",
+      "days": [
+        0
+      ],
+      "time": "11:00",
+      "title": "{emoji_reset} Сброс еженедельных вылазок",
+      "description": "Произошел сброс еженедельных активностей **Вылазки**.",
+      "thumbnail_url": "assets/images/bot-image/thedivision2-icon.png",
+      "image_url": "assets/images/bot-image/paradise.jpg",
+      "ping_role_id": 1537021483203956766,
+      "enabled": true
+    },
+    {
+      "id": "legendary_mission",
+      "days": [
+        1
+      ],
+      "time": "11:00",
+      "title": "{emoji_trophy} Новая игровая неделя",
+      "description": "Смена легендарной миссии недели: **{legendary_mission}**.\n\nТакже произошел сброс рейдов и каталога торговцев.",
+      "thumbnail_url": "assets/images/bot-image/thedivision2-icon.png",
+      "image_url": "assets/images/bot-image/legendary.jpg",
+      "ping_role_id": 1537021089245560842,
+      "enabled": true
+    },
+    {
+      "id": "college_reset",
+      "days": [
+        1
+      ],
+      "time": "11:00",
+      "title": "{emoji_college} Обновление активности: Колледж Кенли",
+      "description": "Произошло обновление локации и задач в **Колледже Кенли**.",
+      "thumbnail_url": "assets/images/bot-image/thedivision2-icon.png",
+      "image_url": "assets/images/bot-image/kenly.jpg",
+      "ping_role_id": null,
+      "enabled": true
+    },
+    {
+      "id": "clan_container",
+      "days": [
+        3
+      ],
+      "time": "12:00",
+      "title": "{emoji_container} Доступен контейнер за клан",
+      "description": "Еженедельный клановый контейнер с наградами стал **доступен для получения**!",
+      "thumbnail_url": "assets/images/bot-image/thedivision2-icon.png",
+      "image_url": "assets/images/bot-image/clan.jpg",
+      "ping_role_id": 1537021699671855115,
+      "enabled": true
+    }
+  ],
+  "legendary_missions_rotation": [
+    "Стадион (District Union Arena)",
+    "Капитолий (Capitol Building)",
+    "Остров Рузвельта (Roosevelt Island)",
+    "Тайдл-Басин (Tidal Basin)",
+    "Зоопарк (Manning National Zoo)"
+  ],
+  "legendary_start_index": 2,
+  "legendary_reference_date": "2026-08-11",
+  "legendary_override": null
+}
